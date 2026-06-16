@@ -1,3 +1,4 @@
 function pozdrav() {
-    alert("Bok! Hvala što si posjetio moj portfolio.");
+    document.getElementById("poruka").innerHTML =
+        "Hvala što si posjetio moj portfolio! 🚀";
 }
